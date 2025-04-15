@@ -3,11 +3,11 @@
 
     --background-color: rgba(5, 13, 24, 0.555);
 
-    --fundo-menu-lateral: #784399;
+    --fundo-menu-lateral: #3c3242;
     --fundo-claro: #a6afb4;
     --fundo-escuro: #dbb7f2;
 
-    --borda-clara: #8a04d8;
+    --borda-clara: #9828da;
     --borda-escura: #31230e;
 
     --texto-escuro: #161616;
@@ -16,7 +16,7 @@
     --texto-hover: #b66dc3;
     --texto-opaco: #9fa3aa;
 
-    --cor-detalhes: #a737bd;
+    --cor-detalhes: #8f36a1;
 
     --texto-titulo-claro: #ba38f2;
     --texto-titulo-escuro: #4b3012;
@@ -248,4 +248,38 @@ a {
 .container {
     padding-left: 30px;
     padding-right: 30px;
+}
+
+/* Seções e Titulos */
+section {
+    padding: 60px 0;
+    overflow: hidden;
+    /* clara */
+    /* background: var(--section-clara); */
+    background: #edbdac;
+}
+
+.section-bg {
+    /* escura */
+    /* background: var(--section-escura); */
+    background: #57362b;
+    color: var(--texto-claro);
+}
+
+/* Estrutura do Titulo Seção */
+.section-title {
+    padding-bottom: 30px;
+}
+
+/* Titulo H2 */
+.section-title h2 {
+    color: var(--texto-escuro);
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.section-title h2::after {
+    
 }
