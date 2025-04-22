@@ -23,11 +23,11 @@ Montserrat:
 
     --background-color: rgba(5, 13, 24, 0.555);
 
-    --fundo-menu-lateral: #3c3242;
+    --fundo-menu-lateral: #0a0a0a;
     --fundo-claro: #a6afb4;
     --fundo-escuro: #dbb7f2;
 
-    --borda-clara: #9828da;
+    --borda-clara: #7708b7;
     --borda-escura: #31230e;
 
     --texto-escuro: #161616;
@@ -38,7 +38,7 @@ Montserrat:
 
     --cor-detalhes: #8f36a1;
 
-    --texto-titulo-claro: #ba38f2;
+    --texto-titulo-claro: #a549cd;
     --texto-titulo-escuro: #4b3012;
 
     --sombra-clara: rgba(255, 255, 255, 1);
@@ -148,6 +148,15 @@ a {
 }
 
 /* Ajuste para o Corpo do Conteudo */
+/* Estrutura Base - Corpo */
+#main {
+    margin-left: 300px; 
+}
+
+.container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
 /* menu responsivo */
 @media (max-width: 1199px) {
@@ -273,7 +282,7 @@ a {
 
 @media (max-width: 768px) {
     #hero h2 {
-        font-size: 90px;
+        font-size: 75px;
         line-height: 1;
         margin-bottom: 20px;
     }
@@ -283,15 +292,7 @@ a {
 }
 
 
-/* Estrutura Base - Corpo */
-#main {
-    margin-left: 300px; 
-}
 
-.container {
-    padding-left: 30px;
-    padding-right: 30px;
-}
 
 /* Seções e Titulos */
 section {
@@ -299,7 +300,7 @@ section {
     overflow: hidden;
     /* clara */
     /* background: var(--section-clara); */
-    background: #9b786e;
+    background: #8a746e;
 }
 
 .section-bg {
@@ -342,7 +343,7 @@ section {
 /* Sobre */
 
 .sobre .content h3 {
-    color: #322a23;
+    color: #0c0c0c;
     font-weight: 700;
     font-size: 26px;
     font-family: "Winky Rough", sans-serif;
@@ -351,4 +352,24 @@ section {
 .sobre .content ul {
     list-style: none;
     padding: 0;
+}
+
+.sobre .content ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sobre .content ul strong {
+    margin-right: 5px;
+    font-weight: 600;
+    /* letter-spacing: .5px; */
+    font-family: "Poppins", sans-serif;
+}
+
+.sobre .content ul i {
+    color: var(--borda-clara);
+    margin-right: 10px;
+    font-size: 20px;
 }
