@@ -27,7 +27,7 @@ Montserrat:
     --fundo-claro: #a6afb4;
     --fundo-escuro: #dbb7f2;
 
-    --borda-clara: #7708b7;
+    --borda-clara: #3214ab;
     --borda-escura: #31230e;
 
     --texto-escuro: #161616;
@@ -36,7 +36,7 @@ Montserrat:
     --texto-hover: #b66dc3;
     --texto-opaco: #9fa3aa;
 
-    --cor-detalhes: #8f36a1;
+    --cor-detalhes: #602d90;
 
     --texto-titulo-claro: #a549cd;
     --texto-titulo-escuro: #4b3012;
@@ -328,7 +328,7 @@ section {
 .section-title h2::after {
     content: "";
     position: absolute;
-    background: #482f2a;
+    background: #3e32c3;
     width: 50px;
     height: 3px;
     display: block;
@@ -372,4 +372,48 @@ section {
     color: var(--borda-clara);
     margin-right: 10px;
     font-size: 20px;
+}
+
+/* Conquistas // Vendas */
+.conquistas {
+    padding-bottom: 30px;
+}
+
+.conquistas .count-box {
+    padding: 30px;
+    width: 100%;
+}
+
+.conquistas .count-box i {
+    color: var(--fundo-menu-lateral);
+    font-size: 44px;
+    display: block;
+    float: left;
+    line-height: 0;
+}
+
+
+.conquistas .count-box span {
+    font-size: 48px;
+    color: var(--fundo-menu-lateral);
+    display: block;
+    line-height: 40px;
+    font-weight: 700;
+    margin-left: 60px;
+}
+
+.conquistas .count-box p {
+    padding: 15px 0 0 0;
+    margin: 0 0 0 60px;
+    color: #272627;
+}
+
+.conquistas .count-box strong {
+    font-weight: 800;
+}
+
+.conquistas .count-box i:hover,
+.conquistas .count-box span:hover {
+    color: #bdb7b7;
+    transition: ease-in-out .55;
 }
